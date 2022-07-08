@@ -9,6 +9,7 @@ using MySql.Data.EntityFramework;
 
 namespace OMRWebApp.DAL
 {
+// COMMENT ADDED BY SUMIT 
     [DbConfigurationType(typeof(MySqlEFConfiguration))]
     public class EmployeeDALOMR: DbContext
     {
